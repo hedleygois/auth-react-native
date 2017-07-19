@@ -8,13 +8,13 @@ export class App extends Component {
 
   componentWillMount() {
     firebase.initializeApp({
-    apiKey: "AIzaSyDwsblNyR1TxBRxxQhG-ez6xgUbLGttaI4",
-    authDomain: "auth-8efa6.firebaseapp.com",
-    databaseURL: "https://auth-8efa6.firebaseio.com",
-    projectId: "auth-8efa6",
-    storageBucket: "auth-8efa6.appspot.com",
-    messagingSenderId: "145537985188"
-  });
+      apiKey: "AIzaSyDwsblNyR1TxBRxxQhG-ez6xgUbLGttaI4",
+      authDomain: "auth-8efa6.firebaseapp.com",
+      databaseURL: "https://auth-8efa6.firebaseio.com",
+      projectId: "auth-8efa6",
+      storageBucket: "auth-8efa6.appspot.com",
+      messagingSenderId: "145537985188"
+    });
   }
 
   render() {
